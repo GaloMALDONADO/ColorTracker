@@ -8,7 +8,7 @@ class Colors:
     def __init__(self):
         self.colorsRGB = conf.COLOR_NAMES_RGB
         self.clist = conf.COLOR_NAMES_RGB.keys()
-        self.boundsRGB = conf.BOUNDS_RGB
+        self.boundsHSV = conf.BOUNDS_HSV
 
     def getRGBfromName (self, name):
         return self.colorsRGB[name]

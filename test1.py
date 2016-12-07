@@ -1,17 +1,17 @@
+import cv2
 from collections import deque
 import numpy as np
 import argparse
-from imtools import resize
-import config as conf
-import cv2
-import detector
-from tracker import Tracker
-from drawer import Drawer
 import time
-import calibration as calib
 import sys
 import json
-import utils
+from src.imtools import resize
+import src.config as conf
+import src.detector as detector
+from src.tracker import Tracker
+from src.drawer import Drawer
+import src.calibration as calib
+import src.utils as utils
 
 '''******** Get Arguments ****************'''                      
 ap = argparse.ArgumentParser()
