@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 *.py~
 test*.py
+/outputs

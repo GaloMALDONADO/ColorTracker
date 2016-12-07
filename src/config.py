@@ -1,5 +1,5 @@
 import cv2
-bounds_filename = 'bounds.txt'
+bounds_filename = 'outputs/bounds.txt'
 
 COLOR_NAMES_RGB = {
     'Black': (0, 0, 0),
